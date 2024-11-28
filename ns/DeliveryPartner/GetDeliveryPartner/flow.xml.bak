@@ -1296,5 +1296,11 @@
 
 <SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" FORM="CATCH">
   <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE TIMEOUT="" SERVICE="pub.flow:getLastError" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
 </SEQUENCE>
 </FLOW>
